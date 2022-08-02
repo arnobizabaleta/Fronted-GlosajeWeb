@@ -18,9 +18,13 @@
     </div>
   </section>
   <nav>
-    <img src="./icons/icon_menu.svg" alt="menu" class="menu">
-
+    <div class="container-menu-mobile">
+      <img src="./assets/icon_menu.svg" alt="menu" class="menu">
+      <img src="./assets/search.png" alt="search icon" class="icon-search-aux">
+    </div>
+    
     <div class="navbar-left">
+      
       <img src="./assets/GWeb_logo.jpeg" alt="logo" class="logo">
 
       <ul>
@@ -48,24 +52,33 @@
         <li class="navbar-right-search">
          <div>
           <input type="search" name="" id=""  placeholder="Buscar">
-          <img src="./assets/search.png" alt="search icon">
+          <img src="./assets/search.png" alt="search icon" class="icon-search">
          </div>
         </li>
         <li class="navbar-user">
-        <div>
-          <a href="./"><img src="./assets/user.png" class="navbar-user-img" alt="user"></a>  
+        <div class="navbar-user-containerImg">
+          <a href="./"><img src="./assets/user.png" class="navbar-user-img" alt="user"></a>
+          <div class="container-login">
+            <h2>REGÍSTRATE</h2>
+            <span><a href="./">IniciarSesión</a></span>
+            <p><a href="./">Regístrate</a></p>
+          </div> 
         </div>   
         </li>
         <li class="navbar-shopping-cart">
           <div class="navbar-shopping-cart-containerImg">
             <a href="./"><img src="./assets/ShoppingCart.png" alt="shopping cart"></a>
+            
           </div>
           
           <div class="navbar-shopping-cart-number">2</div>
         </li>
       </ul>
     </div>
+
+  
   </nav>
+ 
   <main class="main">
     <img src="https://calvincolombia.vteximg.com.br/arquivos/MODULO_1_HOMEPAGE_DESKTOP_JULIO_2022.jpg?v=637921965752000000" alt="PhysicalStore" class="main-img">
     <div class="main-container-textButton" >
